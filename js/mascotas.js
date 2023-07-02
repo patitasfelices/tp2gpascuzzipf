@@ -4,7 +4,7 @@ const { createApp } = Vue
             data() {
                 return {
                     mascotas: [],
-                    url: 'http://pfweb.pythonanywhere.com/mascotas',
+                    url: 'https://pfweb.pythonanywhere.com/mascotas',
                     error: false,
                     cargando: true,
                     id: 0,
