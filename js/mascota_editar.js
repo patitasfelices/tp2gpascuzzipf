@@ -10,7 +10,7 @@ const { createApp } = Vue
                 id_especie:"",                
                 peso:0,
                 imagen:"",
-                url:'http://pfweb.pythonanywhere.com/mascotas/'+id,
+                url:'https://pfweb.pythonanywhere.com/mascotas/'+id,
             }
         },
         methods: {
