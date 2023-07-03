@@ -10,7 +10,7 @@
     rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
     crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style_tp2.css" />
+    <link rel="stylesheet" href="style_tp2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&family=Pacifico&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
                 <div class="form-regmod" >
                     <form style="background-color: aliceblue;margin:10px auto ; padding: 20px;">
                         <h1>Editar datos mascota</h1>
-                        <h1>Especie seleccionada : {{id_especie}}</h1>
+                        <h3>Especie seleccionada : {{id_especie}}</h3>
                         <div class="mb-3-m">
                             <label for="id">Id</label>
                             <input type="number" name="id" id="id" disabled v-model="id" >
@@ -55,6 +55,7 @@
                 </div>
             </div>
         </div> 
+
     </main>
     <footer>
         <!-- place footer here -->
