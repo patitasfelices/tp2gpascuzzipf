@@ -19,8 +19,8 @@
     <main>
         <div class="container-m" id="app">
             <div class="form-regmod" >
-                <form  style="background-color: aliceblue;margin:10px auto ; padding: 20px;">
-                    <h2 style="text-align: center;">Editar datos mascota</h2>
+                <form style="background-color: aliceblue;margin:10px auto ; padding: 20px;">
+                    <h1>Editar datos de mascota</h1> 
                     <p style="text-align: center;">Especie seleccionada : {{id_especie}}</p>
                     <div class="mb-3-m">
                         <label for="id">Id</label>
@@ -35,15 +35,15 @@
                         <input type="text" name="id_especie" id="id_especie" v-model="id_especie">
                     </div>
                     <div class="mb-3-m">
-                        <label for="peso">Peso</label>
+                        <label for="peso">Peso Kg</label>
                         <input type="number" min="0"  name="peso" id="peso" v-model="peso">
                     </div>
                     <div class="mb-3-m">
                         <label for="imagen">Imagen</label>
                         <input type="text" name="imagen" id="imagen" v-model="imagen">
-                    <div class="cont-imagenpeque">
-                        <img width="100" :src="imagen" alt="" >
-                    </div>
+                        <div class="cont-imagenpeque">
+                            <img width="100" :src="imagen" alt="" >
+                        </div>
                     </div>
                         <button type="button" class="btn btn-success" v-on:click="modificar()">Modificar</button>
                         <button type="button" class="btn-backtotable" onclick="location.href='mascotas.html'" >Volver</button>
