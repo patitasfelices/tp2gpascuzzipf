@@ -432,7 +432,7 @@ td,th{
 footer {
   width: 100%;
   position: absolute;
-  padding: 2rem 8%;
+  padding: 1rem 15%;
   background-color: var(--secondary-color);
   display: flex;
   justify-content: center;
